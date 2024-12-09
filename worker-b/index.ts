@@ -1,5 +1,5 @@
 export default {
 	async fetch(request) {
-		return new Response("Hello from Worker B");
+		return new Response("Response from Worker B");
 	},
 } satisfies ExportedHandler;
