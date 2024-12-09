@@ -1,0 +1,7 @@
+name = "entry-worker"
+main = "./index.ts"
+
+services = [
+	{ binding = "WORKER_A", service = "worker-a" },
+	{ binding = "WORKER_B", service = "worker-b" },
+]

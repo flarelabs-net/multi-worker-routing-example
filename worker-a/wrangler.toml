@@ -1,0 +1,2 @@
+name = 'worker-a'
+main = './index.ts'
